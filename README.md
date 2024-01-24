@@ -1,4 +1,11 @@
+Used: ReactJS, HTML, TailwindCSS, JSX.
+This is the project with same home page elements done using simple html/css.
+
+https://github.com/saitejakanumuri/Task1
+
+
 STEPS FOR EXECUTION
+
 1 install nodejs                // for installing npm
 2. download github file         // clone my git repo    
 3. migrate to the folder        // sneak into the folder
