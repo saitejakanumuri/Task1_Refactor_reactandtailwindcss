@@ -1,7 +1,7 @@
 const Nav = () => {
   const Appname= ['D', 'R', 'U', 'G',' ','Q','U','A','N','T','I','T','Y',' ','F','O','R','E','C','A','S','T','I','N','G']; 
   return (
-    <div className="sticky top-0 z-50 hover:-translate-y-2 duration-700 delay-700 hover:bg-logo-match  hover:shadow-violet hover:shadow-2xl bg-logo-match border-2 w-auto m-2">
+    <div className="sticky bg-logo-match top-0 z-50 hover:-translate-y-2 duration-700 delay-700  hover:shadow-violet hover:shadow-2xl border-2 w-auto m-2">
       <div className='flex flex-row mb-3 mt-5 border-box border-[#94a3b8] rounded-lg relative  w-full h-auto'>
         
         <div className="flex-none">

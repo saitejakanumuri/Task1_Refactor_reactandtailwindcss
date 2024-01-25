@@ -4,10 +4,10 @@ const Input = () => {
     const tdata=[['50','Mar 2023','1328','1262','1395'],['51','Apr 2023','1316','1250','1381'],['52','May 2023','1259','1196','1322']]
     const category=['injections','ointments','tablets','inhalers'];
   return(
-    <div className=" p-2 relative h-screen ">
+        <div className=" p-2 relative h-screen ">
         <div className="flex flex-row items-stretch gap-2 ">
 
-            <div className=" box-border border-solid hover:border-2 hover:bg-logo-match  rounded-lg basis-1/3 flex-1 hover:shadow-violet hover:shadow-2xl hover:-translate-y-1 ease-in duration-500  hover:translate-x-4">
+            <div className=" box-border border-solid hover:border-2 bg-logo hover:bg-logo rounded-lg basis-1/3 flex-1 hover:shadow-violet hover:shadow-2xl hover:-translate-y-1 ease-in duration-500  hover:translate-x-4">
                 <div className="m-5 mt-10">
 
                     <label className="pr-5 text-left">select a category:</label>
@@ -39,11 +39,11 @@ const Input = () => {
                 
                 
             </div>
-            <div className=" h-screen  border-solid hover:border-2 hover:bg-logo-match basis-2/3 box-border box-shadow-full flex-auto rounded-lg hover:shadow-violet hover:shadow-2xl hover:-translate-y-1 ease-in duration-500 hover:-translate-x-4">
+            <div className=" h-screen  border-solid hover:border-2 bg-logo basis-2/3 box-border box-shadow-full flex-auto rounded-lg hover:shadow-violet hover:shadow-2xl hover:-translate-y-1 ease-in duration-500 hover:-translate-x-4">
                 <div>
                     <div className="m-10 align-middle mb-5 ml-40 items-start inline-block">
                         <label className="font-bold  tracking-wide italic" for="drug_name ">Drug Name:  </label>
-                        <span className="uppercase subpixel-antialiased font-weight-400" id="drug_name">meropenem 1gm inj</span>
+                        <span className="uppercase subpixel-antialiased hover:text-[#0f172a]font-weight-400" id="drug_name">meropenem 1gm inj</span>
                     </div>
 
                     <table className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 hover:bg-[#22c55e] duration-500 table-auto bg-[#6366f1] shadow-xl hover:shadow-[#22c55e]/50 shadow-[#6366f1]/50 border-collapse border border-slate-300 m-auto">
@@ -68,7 +68,7 @@ const Input = () => {
                         </tbody>
                     </table>
                     <div className="mt-10 ml-40 inline-block">
-                        <label className="font-bold  tracking-wide italic capitalize" for="drug_name ">Recorded point:  </label>
+                        <label className="font-bold tracking-wide italic capitalize" for="drug_name ">Recorded point:  </label>
                         <span className="uppercase subpixel-antialiased font-weight-400" id="drug_name">408.0</span>
                     </div>
                 </div>

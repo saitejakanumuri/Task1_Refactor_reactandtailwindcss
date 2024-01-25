@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
 
-<div class="bg-white rounded-lg hover:border-2  hover:-translate-y-3 ease-in-out duration-700 hover:duration-700 hover:delay-100 hover:shadow-violet shadow-2xl m-4 p-4  dark:bg-gray-800">
+<div class="bg-logo rounded-lg hover:border-2  hover:-translate-y-3 ease-in-out duration-700 hover:duration-700 hover:delay-100 hover:shadow-violet shadow-2xl m-4 p-4  dark:bg-gray-800">
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline">Innodatatics™</a>. All Rights Reserved.
     </span>
